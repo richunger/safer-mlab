@@ -11,6 +11,12 @@
     "128": "safer_mlab_128.png"
   },
 
+  "browser_action": {
+    "default_icon": "safer_mlab_16.png",
+    "default_popup": "toolbar_popup.html",
+    "default_title": "Safer mLab"
+  },
+
   "content_scripts": [
     {
       "matches": ["https://mlab.com/*"],
